@@ -1,17 +1,17 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "This is m first Express Js ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ansley",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.10"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }

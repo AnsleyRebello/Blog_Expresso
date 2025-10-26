@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "first_name": "Sada",
+    "last_name": "Penswick",
+    "email": "spenswick0@techcrunch.com",
+    "gender": "Polygender",
+    "job_title": "Programmer Analyst II"
+  },
+  {
+    "id": 2,
+    "first_name": "Geri",
+    "last_name": "Batteson",
+    "email": "gbatteson1@mashable.com",
+    "gender": "Male",
+    "job_title": "Software Consultant"
+  },
+  {
+    "id": 3,
+    "first_name": "Virgil",
+    "last_name": "Amsterdam",
+    "email": "ned.com",
+    "gender": "male",
+    "job_title": "Developer"
+  },
+  {
+    "first_name": "Andrei",
+    "last_name": "Bosnia",
+    "email": "nedin.com",
+    "gender": "male",
+    "job_title": "Drug Developer",
+    "id": 4
+  }
+]

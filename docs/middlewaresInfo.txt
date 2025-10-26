@@ -1,0 +1,11 @@
+request --> middleware --> response
+
+it has a access to request and response
+
+basically acts as a plugin
+
+app.use((req,res,next) => {
+...
+.....
+next()      // This goes to the next function.
+})

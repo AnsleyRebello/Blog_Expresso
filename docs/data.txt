@@ -1,0 +1,20 @@
+RESTful Api's
+
+GET /users = List all users
+GET /users/1 - id 1
+GET /users/2 - id 2
+
+POST /users = create user
+
+PATCH /user/id = edit the user with Id 1
+
+DELETE /users/1 = delete the user with Id 1... (1) is a dynamic path parameters 
+DELETE /users/:id
+
+With /api/... - JSON Data
+Without /api/... - HTML Data
+
+// Mongoose
+Schema: 
+    Schema - model
+    Using Model we do CRUD operations
