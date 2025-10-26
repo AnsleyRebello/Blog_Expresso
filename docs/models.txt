@@ -1,0 +1,20 @@
+Note: Made for Reference only
+
+// Step 1: Create the config objects
+const firstNameConfig = {
+  type: String,
+  required: true
+};
+
+const lastNameConfig = {
+  type: String
+};
+
+// Step 2: Put them in a bigger object
+const fieldsDefinition = {
+  first_name: firstNameConfig,
+  last_name: lastNameConfig
+};
+
+// Step 3: Pass to Schema constructor
+const userSchema = new mongoose.Schema(fieldsDefinition);

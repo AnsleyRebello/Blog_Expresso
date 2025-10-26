@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 
-// Schema
+// Schema: Calling a Constructor
+// new mongoose.Schema(arg1, arg2)
 const userSchema = new mongoose.Schema(
   {
     first_name: {
@@ -27,8 +28,9 @@ const userSchema = new mongoose.Schema(
 
 //  Model Creation or Model Definition 
 const User = mongoose.model("user", userSchema); // ("name", schema)
+// Mongoose automatically pluralizes "user" → "users"
 
-module.exports = User;
+module.exports = { User };
 
 // const Car = class {          // Car is a class stored in a const
 //   constructor() { }

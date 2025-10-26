@@ -1,5 +1,5 @@
 // woh controller model pe manipulate kart hai 
-const User = require("../models/user")
+const { User } = require("../models/user")
 
 const handleGetAllUsers = async (req,res) => {
     const allDbUsers = await User.find({});
